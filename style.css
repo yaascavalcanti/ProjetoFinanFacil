@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffd3d3;
+}
+
+header .VIP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-color: #ffa2a3;
+  border: none;
+  height: 20px;
+  width: 115px;
+  border-radius: 3px;
+}
+
+.logo {
+  width: 150px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 20px auto;
+  width: 255px;
+  color: #121112;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  flex-direction: column;
+}
+
+main p {
+  width: 241px;
+  color: #000;
+  font-family: Inter;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.caixa {
+  width: 200px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin: 12px auto;
+}
+
+.caixa {
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 19.3px 7px rgba(0, 0, 0, 0.25);
+  width: 200px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  height: 18px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+p {
+  color: #666666;
+  margin-bottom: 25px;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.caixa input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #333333;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  width: 193px;
+  height: 34px;
+  padding: 8px 80px 9px 11px;
+  align-items: center;
+}
+
+.caixa input[type="text"]::placeholder {
+  color: #aaaaaa;
+  color: #cfcfcf;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  padding: 15px;
+  background-color: #ff7777;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.caixa button:hover {
+  background-color: #b86767;
+  color: #fffdfd;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fun {
+  height: 100%;
+  background: linear-gradient(148deg, #fda9bb 7.26%, #d1fbcb 96.6%);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 285px;
+  height: 150px;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0 -6px 0 0 rgba(30, 163, 70, 0.79);
+  margin: 15px auto;
+}
+
+h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.icone {
+  align-items: center;
+  justify-content: center;
+  width: 38.001px;
+  height: 31.018px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+h4 {
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 11px auto;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  section{
+    margin-bottom: 60px;
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    width: 40%; 
+    margin: 0 auto
+  }
+
+  .principal {
+    height: 900px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-around;
+  }
+
+  main {
+    width: 57px;
+    color: #121112;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: start; 
+    text-align: left;
+    font-size: 74px;
+    font-weight: 900;
+    width: 578px;
+  }
+
+  main p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 578px;
+    padding: 37px;
+  }
+
+  .caixa {
+    margin-top: 20%;
+    border-radius: 16px;
+    background: #fffdfd;
+    box-shadow: 0 4px 19.3px 7px rgba(0, 0, 0, 0.29);
+    width: 350px;
+    height: 390px;
+  }
+
+  h2 {
+    font-size: 26px;
+    width: 356px;
+    gap: 20px;
+  }
+
+  .caixa p {
+    margin-top: 30px;
+    width: 100%;
+    height: 47px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .caixa input {
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 45px;
+  }
+
+  #input-field1{
+    margin-bottom: 30px;
+  }
+
+  .caixa button{
+    margin-top: 60px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .fun{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: 1000px;
+    width: 100%;
+  }
+
+  h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px, auto;
+    font-size: 48px;
+  }
+
+  .card {
+    display: block;
+    width: 265px;
+    height: 370px;
+    border-radius: 11px;
+    background: #fff;
+    box-shadow: 0 -6px 0 0 rgba(30, 163, 70, 0.79);
+    margin: 15px auto;    
+  }
+  
+  .card p{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 34px;
+  }
+}
